@@ -17,7 +17,7 @@
                 
         </nav>
         <div>
-        <img class="nav-wave" src="../assets/wave (1).png" alt="nav">
+        <img class="nav-wave" src="../assets/images/wave (1).png" alt="nav">
         </div>
         <div class="mobile-navbar">
     <!-- Navigation icons -->
@@ -60,7 +60,7 @@
 }
 
 .logo-signL{
-  color: white;
+  color: var(--text-color-light);
   margin-right: 10px;
   font-size: 2.2rem;
   font-weight: 200;
@@ -83,7 +83,7 @@
   background-color: var(--bg-color);
   padding-top: 20px;
   margin: auto; /* Center the navbar */
-  color: white;
+  color: var(--text-color-light);
   width: 100%; /* Span the full width */
   position: absolute;
   top: 0;
@@ -114,7 +114,6 @@
 }
 
 .nav-links {
-  
   list-style: none;
   display: flex;
   gap: 1rem;
@@ -122,7 +121,7 @@
 
 .nav-item {
   text-decoration: none;
-  color: white;
+  color: var(--text-color-light) ;
   font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
   padding: 3rem 1rem;
@@ -170,9 +169,10 @@ display: none;
 /* You might want to add :hover and :active states for your icons */
 .nav-icon:hover {
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  color: #fff; /* Change color on hover */
+  color: var(--text-color-light) ;
 }
 }
+
 
 
 </style>

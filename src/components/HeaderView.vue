@@ -92,7 +92,7 @@
   }
   
   .middle-div{
-    background-image: url('../assets/tomo slike/img (36).JPG' );
+    background-image: url('../assets/TomoSlike/img (36).JPG' );
     object-fit: cover;  
     background-size: cover;
 }
@@ -103,7 +103,6 @@
   }
   
   .header {
- 
     z-index: 5;
     display: flex;
     flex-direction: column;
@@ -125,6 +124,12 @@
     cursor: pointer;
     margin-top: 20px;
     border-radius: 20px;
+  }
+
+  .book-now:hover{
+    background-color: var(--text-color-light);
+    border: 2px solid var(--bg-color);
+    cursor: pointer;
   }
   
   .local-electrician {

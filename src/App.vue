@@ -20,7 +20,7 @@ export default {
   --secondary: #FC9C71; /* Secondary color */
   --bg-color: #1A202C; /* Background color */
   --text-color: #333; /* Primary text color */
-  --text-color-light: #FFF; /* Light text color for use on dark backgrounds */
+  --text-color-light: #D9D9D9; /* Light text color for use on dark backgrounds */
   --border: #FC9C71; /* Border color */
 }
 
@@ -32,4 +32,6 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+
+
 </style>
