@@ -21,10 +21,10 @@
         </div>
         <div class="mobile-navbar">
     <!-- Navigation icons -->
-    <a href="#home" class="nav-icon">
+    <a href="#header" class="nav-icon">
       <font-awesome-icon :icon="['fas', 'house']" />
     </a>
-    <a href="#about" class="nav-icon">
+    <a href="#about-me-container" class="nav-icon">
       <font-awesome-icon :icon="['fas', 'circle-user']" />
     </a>
     <a href="#services" class="nav-icon">
