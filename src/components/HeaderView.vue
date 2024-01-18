@@ -11,7 +11,7 @@
         </div>
       </div>
       <div class="middle-div">
-        <!-- Image could go here -->
+       <img src="../assets/tomo1.jpg" alt="Light Supply working">
       </div>
       <div class="window"> 
         <p>
@@ -92,7 +92,7 @@
   }
   
   .middle-div{
-    background-image: url('../assets/img\ \(36\).JPG' );
+    // background-image: url('../assets/img\ \(36\).JPG' );
     object-fit: cover;  
     background-size: cover;
 }
