@@ -194,8 +194,6 @@ export default {
     flex-direction: column;
   }
   #about-me-container {
-    padding-top: 50rem;
-    padding-bottom: 50rem;
     margin: 20px; /* Adjusted margin for smaller screens */
   }
 

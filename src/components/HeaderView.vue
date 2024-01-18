@@ -160,7 +160,7 @@ width: 90%;
   }
  @media (max-width: 768px) {
   #header {
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0; /* Add this to align the header to the left edge */
     right: 0; /* Add this to align the header to the right edge */
