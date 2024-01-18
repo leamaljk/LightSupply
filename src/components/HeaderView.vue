@@ -213,11 +213,10 @@ width: 90%;
 @media (max-width: 480px) {
   #header {
     height: auto;
-    padding: 15px; /* This provides padding inside the header */
     justify-content: center;
     align-items: center;
-    margin: 10px;
-    
+    margin: auto;
+    padding-top: 60px;
   }
 
   .one-line h1 {
@@ -237,8 +236,12 @@ width: 90%;
     width: calc(100% - 20px); /* Subtract the total horizontal padding from the width */
   }
 
-  .middle-div img {
-    display: none;
+  .middle-div img{
+    object-fit: cover;  
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    
   }
 }
 
