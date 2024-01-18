@@ -92,7 +92,7 @@
   }
   
   .middle-div{
-    background-image: url('../assets/TomoSlike/img (36).JPG' );
+    background-image: url('../assets/img\ \(36\).JPG' );
     object-fit: cover;  
     background-size: cover;
 }
