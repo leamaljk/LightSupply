@@ -1,5 +1,5 @@
 <template>
-    <div class="about-me-container">
+    <div id="about-me-container">
       <h1 class="title1">About Me</h1>
     <!-- CARD 1 -->
       <div class="box left-border">
@@ -106,7 +106,7 @@ export default {
   
   <style scoped>
 
- .about-me-container {
+ #about-me-container {
   max-width: 1200px;
   margin: 200px auto;
   padding: 20px;
@@ -193,7 +193,7 @@ export default {
     .boxes {
     flex-direction: column;
   }
-  .about-me-container {
+  #about-me-container {
     padding-top: 50rem;
     padding-bottom: 50rem;
     margin: 20px; /* Adjusted margin for smaller screens */

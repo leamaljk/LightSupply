@@ -1,13 +1,13 @@
 <template>
-    <div>
+    <div >
         <nav class="navbar">
             <div class="nav-logo">
             <h1 class="logo-signL"> LIGHT </h1>
             <h1 class="logo-signS"> SUPPLY </h1>
             </div>
                 <ul class="nav-links">
-                <li><a href="#home" class="nav-item"><font-awesome-icon :icon="['fas', 'house']" class="my-icon-style" />HOME</a></li>
-                <li><a href="#about" class="nav-item"><font-awesome-icon :icon="['fas', 'circle-user']" class="my-icon-style"/>ABOUT</a></li>
+                <li><a href="#header" class="nav-item"><font-awesome-icon :icon="['fas', 'house']" class="my-icon-style" />HOME</a></li>
+                <li><a href="#about-me-container" class="nav-item"><font-awesome-icon :icon="['fas', 'circle-user']" class="my-icon-style"/>ABOUT</a></li>
                 <li><a href="#services" class="nav-item"><font-awesome-icon :icon="['fas', 'circle-check']" class="my-icon-style" />SERVICES</a></li>
                 <li><a href="#about" class="nav-item"><font-awesome-icon :icon="['fas', 'comment']" class="my-icon-style" />TESTIMONIALS</a></li>
                 <li><a href="#about" class="nav-item"><font-awesome-icon :icon="['fas', 'circle-question']" class="my-icon-style"/>FAQ</a></li>
