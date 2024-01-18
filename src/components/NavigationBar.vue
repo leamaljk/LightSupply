@@ -158,7 +158,7 @@ display: none;
 }
 
 .nav-icon {
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 1);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
   border-radius: 50%;
   color: var(--secondary); /* Icon color */
   font-size: 24px; /* Icon size */
@@ -169,7 +169,7 @@ display: none;
 /* You might want to add :hover and :active states for your icons */
 .nav-icon:hover {
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  color: var(--text-color-light) ;
+  color: var(--primary) ;
 }
 }
 
