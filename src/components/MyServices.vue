@@ -167,27 +167,24 @@
   margin-bottom: 30px;
   }
 
-
   @media (max-width: 768px) {
-    
   .services-section {
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center-align children */
     margin: 0px;
+    padding: 10px;
     background-size: contain;
-    
   }
   .service-card {
-    width: 100%;
-    justify-content: center; /* Center grid items on smaller screens */
-    align-items: center;
-    margin: 15px;
-    
-
+    width: auto; /* Adjust width as needed */
+    margin: 15px auto; /* Center the card with auto margins */
+    float: none; /* Remove float */
   }
-
   .title {
-    font-size: 2em; /* Smaller font size for mobile */
+    font-size: 2em;
   }
 }
+
  
   </style>
   

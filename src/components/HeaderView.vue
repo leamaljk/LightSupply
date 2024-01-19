@@ -1,5 +1,10 @@
 <template>
+   <div class="nav-logo">
+            <h1 class="logo-signL"> LIGHT </h1>
+            <h1 class="logo-signS"> SUPPLY </h1>
+            </div>
     <div id="header">
+      
       <div class="image-container">
         <div class="header">
           <div class="one-line"> 
@@ -158,6 +163,10 @@
   .window p{
 width: 90%;
   }
+
+  .nav-logo{
+  display: none;
+  }
  @media (max-width: 768px) {
   #header {
     position: relative;
@@ -188,6 +197,7 @@ width: 90%;
 
   .one-line {
     flex-direction: column;
+    
   }
 
   .local-electrician,
@@ -208,6 +218,28 @@ width: 90%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     
   }
+ // logo
+.nav-logo{
+  
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-signL{
+  color: var(--text-color);
+  font-size: 2.2rem;
+  font-weight: 200;
+
+}
+.logo-signS{
+  color: var(--secondary);
+  font-size: 2.2rem;
+  font-weight: 700;
+}
 }
 
 @media (max-width: 480px) {

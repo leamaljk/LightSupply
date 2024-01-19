@@ -172,6 +172,10 @@ display: none;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   color: var(--primary) ;
 }
+.nav-logo{
+  position: absolute;
+  top: 0;
+}
 }
 
 
