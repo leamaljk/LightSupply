@@ -20,8 +20,9 @@
       </div>
       <div class="window"> 
         <p>
-        I am certified and experienced electrician dedicated to providing top-notch electrical services in my region. <br><br>
-        My approach combines technical expertise with a commitment to customer satisfaction, ensuring every project is completed to the highest standards.
+          Light Supply Electrical Services, <br>
+          is a small business based in Milton Keynes and NICEIC Approved Domestic Installer.<br>
+          As qualified electrician I offer professional electrical services to domestic properties for homeowners and landlords.<br>
         </p>
     </div>
     </div>
@@ -167,69 +168,48 @@ width: 90%;
   .nav-logo{
   display: none;
   }
- @media (max-width: 768px) {
-  #header {
+
+
+  @media (max-width: 768px) {
+
+    @keyframes moveUp {
+  0% {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    opacity: 0;
+  }
+  100% {
     position: relative;
     top: 0;
-    left: 0; /* Add this to align the header to the left edge */
-    right: 0; /* Add this to align the header to the right edge */
-    grid-template-columns: 1fr;
-    height: auto;
-    padding: 20px;
-    
+    left: 50%;
+    transform: translate(-50%, 0%);
+    opacity: 1;
   }
-
-  .image-container,
-  .middle-div,
-  .window {
-    width: calc(100% - 40px); /* Subtract the total horizontal padding from the width */
-    margin: 0 auto;
-    
-  }
-
-  .header {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-size: 0.9em;
-  }
-
-  .one-line {
-    flex-direction: column;
-    
-  }
-
-  .local-electrician,
-  .logo-signS {
-    width: 100%;
-    margin: 0 0 10px 0;
-  }
-
-  .book-now {
-    width: 100px;
-    margin-top: 20px;
-  }
-
-  .window {
-    max-width: 100%;
-    margin: 20px 0;
-    padding: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    
-  }
- // logo
-.nav-logo{
-  
-  font-family: 'Roboto', sans-serif;
-  display: flex;
-  flex-direction: column;
-
-  justify-content: center;
-  align-items: center;
 }
+  .nav-logo {
+      left: 50%; /* Center horizontally */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Roboto', sans-serif;
+      animation: moveUp 2s ease forwards; /* Apply the animation */
+      animation-delay: 0.5s; /* Delay the start of the animation */
+      z-index: 1000;
+    }
 
-.logo-signL{
+     .logo-signL, .logo-signS {
+    /* Ensure these are not hidden by overflow or other elements */
+    display: block; /* Or inline-block, as necessary */
+    width: 100%; /* Adjust as necessary */
+    text-align: center; /* Center text */
+    /* Make sure no parent element is hiding overflow content */
+    overflow: visible;
+  }
+
+    .logo-signL{
   color: var(--text-color);
   font-size: 2.2rem;
   font-weight: 200;
@@ -240,7 +220,64 @@ width: 90%;
   font-size: 2.2rem;
   font-weight: 700;
 }
-}
+
+
+    #header {
+      position: relative;
+      top: 0;
+      left: 0;
+      right: 0;
+      grid-template-columns: 1fr;
+      height: auto;
+      padding: 20px;
+      margin-top: 0; /* Reset the margin-top */
+      opacity: 0; /* Start hidden and fade in */
+      animation: fadeIn 2s ease forwards; /* Fade in animation for content */
+      animation-delay: 1.5s;/* Start after navbar animation */
+    }
+
+    .image-container,
+    .middle-div,
+    .window {
+      width: calc(100% - 40px); /* Adjust width with padding */
+      margin: 0 auto;
+    }
+
+    .header {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      font-size: 0.9em;
+    }
+
+    .one-line {
+      flex-direction: column;
+    }
+
+    .local-electrician, .logo-signS {
+      width: 100%;
+      margin: 0 0 10px 0;
+    }
+
+    .book-now {
+      width: 100px;
+      margin-top: 20px;
+    }
+
+    .window {
+      max-width: 100%;
+      margin: 20px 0;
+      padding: 15px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Keyframes for fading in */
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+  }
 
 @media (max-width: 480px) {
   #header {
@@ -248,7 +285,7 @@ width: 90%;
     justify-content: center;
     align-items: center;
     margin: auto;
-    padding-top: 60px;
+   
   }
 
   .one-line h1 {
