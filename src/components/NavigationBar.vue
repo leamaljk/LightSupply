@@ -36,6 +36,7 @@
     <a href="#faq" class="nav-icon">
       <font-awesome-icon :icon="['fas', 'circle-question']" />
     </a>
+    
   </div>
     </div>
 </template>

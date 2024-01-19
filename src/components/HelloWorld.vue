@@ -3,7 +3,7 @@
 <div><NavigationBar></NavigationBar></div>
 <div><HeaderView/> </div> 
 <div><AboutMe></AboutMe></div>
-<div></div>
+<div><MyServices></MyServices></div>
 <div></div>
 <div></div>
 
@@ -15,9 +15,10 @@
 import NavigationBar from './NavigationBar.vue';
 import HeaderView from './HeaderView.vue';
 import AboutMe from './AboutMe.vue';
+import MyServices from './MyServices.vue';
 export default {
     name: 'ElectricianComponent',
-    components: { NavigationBar, HeaderView, AboutMe }
+    components: { NavigationBar, HeaderView, AboutMe, MyServices }
 };
 </script>
 
