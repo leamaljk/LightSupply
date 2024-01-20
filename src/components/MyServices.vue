@@ -162,21 +162,8 @@ export default {
   flex-grow: 1; /* Allow the description to fill the space */
 }
 
-.see-more-button {
-  padding: 10px 20px;
-  background-color: var(--bg-color); /* Bootstrap primary color */
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  margin-top: 15px; /* Space from the description */
-  align-self: center; /* Align the button to the center */
-  transition: background-color 0.3s ease;
-}
 
-.see-more-button:hover {
-  background-color: #0056b3; /* Darken the color on hover */
-}
+
 
 .title {
   font-size: 4em;

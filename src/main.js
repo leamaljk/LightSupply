@@ -6,7 +6,8 @@ import {
   faCircleUser,
   faCircleCheck,
   faComment,
-  faCircleQuestion
+  faCircleQuestion,
+  faArrowUpRightFromSquare
 } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 
@@ -16,7 +17,8 @@ library.add(
   faCircleUser,
   faCircleCheck,
   faComment,
-  faCircleQuestion
+  faCircleQuestion,
+  faArrowUpRightFromSquare
 );
 
 const app = createApp(App);
