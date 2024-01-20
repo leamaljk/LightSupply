@@ -1,6 +1,6 @@
 <template>
     <div><h1 class="title">Services</h1></div>
-    <div class="services-section">
+    <div id="services-section">
 
 <!-- CARD 1 -->
       <div class="service-card">
@@ -106,7 +106,7 @@ export default {
 </script>
 
 <style scoped>
-.services-section {
+#services-section {
   display: grid;
   grid-template-columns: repeat(4, 1fr); /* Four columns */
   gap: 20px; /* Space between cards */
@@ -173,14 +173,14 @@ export default {
 }
 
 @media (max-width: 1199px) {
-  .services-section {
+  #services-section {
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Adjust to fewer columns on medium screens */
   }
 }
 
 
 @media (max-width: 768px) {
-    .services-section {
+    #services-section {
     grid-template-columns: 1fr; /* Stack cards in a single column on small screens */
   }
   .service-card {

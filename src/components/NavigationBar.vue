@@ -8,8 +8,8 @@
                 <ul class="nav-links">
                 <li><a href="#header" class="nav-item"><font-awesome-icon :icon="['fas', 'house']" class="my-icon-style" />HOME</a></li>
                 <li><a href="#about-me-container" class="nav-item"><font-awesome-icon :icon="['fas', 'circle-user']" class="my-icon-style"/>ABOUT</a></li>
-                <li><a href="#services" class="nav-item"><font-awesome-icon :icon="['fas', 'circle-check']" class="my-icon-style" />SERVICES</a></li>
-                <li><a href="#about" class="nav-item"><font-awesome-icon :icon="['fas', 'comment']" class="my-icon-style" />TESTIMONIALS</a></li>
+                <li><a href="#services-section" class="nav-item"><font-awesome-icon :icon="['fas', 'circle-check']" class="my-icon-style" />SERVICES</a></li>
+                <li><a href="#testimonials" class="nav-item"><font-awesome-icon :icon="['fas', 'comment']" class="my-icon-style" />TESTIMONIALS</a></li>
                 <li><a href="#about" class="nav-item"><font-awesome-icon :icon="['fas', 'circle-question']" class="my-icon-style"/>FAQ</a></li>
                 
                 <!-- Add more navigation items here -->

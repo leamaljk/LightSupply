@@ -1,7 +1,7 @@
 <template>
             <div><h1 class="title">Customer testimonials</h1></div>
 
-    <section class="testimonials">
+    <section id="testimonials">
 
       <div class="testimonial">
         <!-- Dynamic class to show/hide cards based on currentIndex -->
@@ -137,7 +137,7 @@ span, .icon{
     font-weight: 600;
     text-transform: uppercase;
  }
-  .testimonials {
+  #testimonials {
 position: relative;
   max-width: 1200px;
   margin-left: auto;
@@ -148,7 +148,7 @@ position: relative;
   flex-direction: column;
 }
 
-.testimonials::before {
+#testimonials::before {
   content: '';
   position: absolute; /* Position it over the .testimonials */
   top: 0;
@@ -290,7 +290,7 @@ height: 100px;
     text-align: center; /* Center the title */
   }
   
-  .testimonials {
+  #testimonials {
     position: relative;
     padding: 10px; /* Less padding on smaller screens */
   }
