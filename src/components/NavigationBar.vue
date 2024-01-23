@@ -10,7 +10,7 @@
                 <li><a href="#about-me-container" class="nav-item"><font-awesome-icon :icon="['fas', 'circle-user']" class="my-icon-style"/>ABOUT</a></li>
                 <li><a href="#services-section" class="nav-item"><font-awesome-icon :icon="['fas', 'circle-check']" class="my-icon-style" />SERVICES</a></li>
                 <li><a href="#testimonials" class="nav-item"><font-awesome-icon :icon="['fas', 'comment']" class="my-icon-style" />TESTIMONIALS</a></li>
-                <li><a href="#about" class="nav-item"><font-awesome-icon :icon="['fas', 'circle-question']" class="my-icon-style"/>FAQ</a></li>
+                <li><a href="#main-div" class="nav-item"><font-awesome-icon :icon="['fas', 'circle-question']" class="my-icon-style"/>FAQ</a></li>
                 
                 <!-- Add more navigation items here -->
                 </ul>
@@ -33,7 +33,7 @@
     <a href="#testimonials" class="nav-icon">
       <font-awesome-icon :icon="['fas', 'comment']" />
     </a>
-    <a href="#faq" class="nav-icon">
+    <a href="#main-div" class="nav-icon">
       <font-awesome-icon :icon="['fas', 'circle-question']" />
     </a>
     
