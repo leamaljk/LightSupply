@@ -6,8 +6,8 @@
 <div><MyServices></MyServices></div>
 <div><CostumerTestimonials></CostumerTestimonials> </div>
 <div><FrequentlyAskedQuestions></FrequentlyAskedQuestions> </div>
-<div></div>
-<div></div>
+
+<div> <ContactFooter></ContactFooter>  </div>
   </div>
 
 </template>
@@ -19,9 +19,12 @@ import AboutMe from './AboutMe.vue';
 import MyServices from './MyServices.vue';
 import CostumerTestimonials from './CostumerTestimonials.vue';
 import FrequentlyAskedQuestions from './FrequentlyAskedQuestions.vue';
+import ContactFooter from './ContactFooter.vue';
+
+
 export default {
     name: 'ElectricianComponent',
-    components: { NavigationBar, HeaderView, AboutMe, MyServices, CostumerTestimonials, FrequentlyAskedQuestions }
+    components: { NavigationBar, HeaderView, AboutMe, MyServices, CostumerTestimonials, FrequentlyAskedQuestions, ContactFooter }
 };
 </script>
 

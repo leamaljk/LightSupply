@@ -11,6 +11,7 @@
                 <li><a href="#services-section" class="nav-item"><font-awesome-icon :icon="['fas', 'circle-check']" class="my-icon-style" />SERVICES</a></li>
                 <li><a href="#testimonials" class="nav-item"><font-awesome-icon :icon="['fas', 'comment']" class="my-icon-style" />TESTIMONIALS</a></li>
                 <li><a href="#main-div" class="nav-item"><font-awesome-icon :icon="['fas', 'circle-question']" class="my-icon-style"/>FAQ</a></li>
+                <li><a href="#main-div" class="nav-item"><font-awesome-icon :icon="['fas', 'envelope-circle-check']" />CONTACT</a></li>
                 
                 <!-- Add more navigation items here -->
                 </ul>
@@ -36,7 +37,8 @@
     <a href="#main-div" class="nav-icon">
       <font-awesome-icon :icon="['fas', 'circle-question']" />
     </a>
-    
+    <a href="#main-div" class="nav-icon">
+      <font-awesome-icon :icon="['fas', 'envelope-circle-check']" />    </a>
   </div>
     </div>
 </template>
@@ -154,23 +156,33 @@ display: none;
   padding: 10px 0; /* Add padding */
   z-index: 1000; /* High z-index to ensure it's above other content */
 
-  /* Add a top border or shadow if you like */
   border-top: 1px solid var(--secondary);
 }
 
 .nav-icon {
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
-  border-radius: 50%;
-  color: var(--secondary); /* Icon color */
-  font-size: 24px; /* Icon size */
-  padding: 10px; /* Icon padding */
+ 
+  color: var(--text-color-light); /* Icon color */
+  font-size: 20px; /* Icon size */
   display: block; /* Ensure it's a block element */
 }
 
 /* You might want to add :hover and :active states for your icons */
 .nav-icon:hover {
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  color: var(--primary) ;
+  color: var(--primary);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+  animation: bounce 0.2s ease-in; /* Apply the bounce animation */
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0); /* Start and end with no vertical movement */
+  }
+  40% {
+    transform: translateY(-10px); /* Bounce up 10px at 40% */
+  }
+  60% {
+    transform: translateY(-5px); /* Bounce up 5px at 60% */
+  }
 }
 .nav-logo{
   position: absolute;
