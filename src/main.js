@@ -12,6 +12,7 @@ import {
   faEnvelope,
   faPhone,
   faLocationPin,
+  faImages,
 } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 
@@ -27,6 +28,7 @@ library.add(
   faEnvelope,
   faPhone,
   faLocationPin,
+  faImages
 );
 
 const app = createApp(App);

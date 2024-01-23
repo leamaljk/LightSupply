@@ -11,7 +11,8 @@
                 <li><a href="#services-section" class="nav-item"><font-awesome-icon :icon="['fas', 'circle-check']" class="my-icon-style" />SERVICES</a></li>
                 <li><a href="#testimonials" class="nav-item"><font-awesome-icon :icon="['fas', 'comment']" class="my-icon-style" />TESTIMONIALS</a></li>
                 <li><a href="#main-div" class="nav-item"><font-awesome-icon :icon="['fas', 'circle-question']" class="my-icon-style"/>FAQ</a></li>
-                <li><a href="#main-div" class="nav-item"><font-awesome-icon :icon="['fas', 'envelope-circle-check']" />CONTACT</a></li>
+                <li><a href="#main-div" class="nav-item"><font-awesome-icon :icon="['fas', 'images']"  class="my-icon-style"/>GALLERY</a></li>
+                <li><a href="#footer" class="nav-item"><font-awesome-icon :icon="['fas', 'envelope-circle-check']" class="my-icon-style" />CONTACT</a></li>
                 
                 <!-- Add more navigation items here -->
                 </ul>
@@ -38,7 +39,11 @@
       <font-awesome-icon :icon="['fas', 'circle-question']" />
     </a>
     <a href="#main-div" class="nav-icon">
-      <font-awesome-icon :icon="['fas', 'envelope-circle-check']" />    </a>
+      <font-awesome-icon :icon="['fas', 'images']">
+      </font-awesome-icon>    </a>
+    <a href="#footer" class="nav-icon">
+      <font-awesome-icon :icon="['fas', 'envelope-circle-check']" />    
+    </a>
   </div>
     </div>
 </template>
@@ -119,16 +124,15 @@
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 1rem;
+  gap: 10px;
 }
 
 .nav-item {
   text-decoration: none;
   color: var(--text-color-light) ;
   font-family: 'Montserrat', sans-serif;
-  font-size: 1rem;
   padding: 3rem 1rem;
-  margin: 20px;
+
   transition: color 0.3s ease;
 }
 
