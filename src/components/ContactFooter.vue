@@ -147,12 +147,14 @@
     
  .social-media , .social{
 text-align: center;
+margin: 15px 0;
  }
 
  .social h4{
     text-align: center;
     align-items: center;
  }
+ 
  .social-media{
     padding: 0;
  }

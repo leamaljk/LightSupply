@@ -12,7 +12,9 @@
             <h1 class="logo-signS">Electrician</h1> 
           </div>
           <h2 class="local-electrician">Here When You Need Me</h2>
+          <a href="#footer">
           <button class="book-now">Book Now</button>
+        </a>
         </div>
       </div>
       <div class="middle-div">
@@ -175,16 +177,16 @@ width: 90%;
     @keyframes moveUp {
   0% {
     position: relative;
-    top: 50%;
+    top: 100%;
     left: 50%;
-    transform: translate(-50%, 50%);
+    transform: translate(-50%, 100%);
     opacity: 0;
   }
   100% {
     position: relative;
     top: 0;
     left: 50%;
-    transform: translate(-50%, 0%);
+    transform: translate(-50%, -20%);
     opacity: 1;
   }
 }
@@ -195,7 +197,7 @@ width: 90%;
       justify-content: center;
       align-items: center;
       font-family: 'Roboto', sans-serif;
-      animation: moveUp 2s ease forwards; /* Apply the animation */
+      animation: moveUp 3s ease forwards; /* Apply the animation */
       animation-delay: 0.5s; /* Delay the start of the animation */
       z-index: 1000;
     }

@@ -25,23 +25,31 @@
     <!-- Navigation icons -->
     <a href="#header" class="nav-icon">
       <font-awesome-icon :icon="['fas', 'house']" />
+      <p class="small-nav-text">Home</p>
     </a>
-    <a href="#about-me-container" class="nav-icon"> 
+    <a href="#about-me-container" class="nav-icon">
       <font-awesome-icon :icon="['fas', 'circle-user']" />
+      <p class="small-nav-text">About</p>
     </a>
     <a href="#services-section" class="nav-icon">
       <font-awesome-icon :icon="['fas', 'circle-check']" />
+      <p class="small-nav-text">Services</p>
     </a>
     <a href="#testimonials" class="nav-icon">
       <font-awesome-icon :icon="['fas', 'comment']" />
+      <p class="small-nav-text">Reviews</p>
     </a>
     <a href="#main-div" class="nav-icon">
       <font-awesome-icon :icon="['fas', 'circle-question']" />
+      <p class="small-nav-text">FAQ</p>
     </a>
-    <a href="#main-div" class="nav-icon">
-      <font-awesome-icon :icon="['fas', 'image']" />    </a>
+    <!-- <a href="#main-div" class="nav-icon">
+      <font-awesome-icon :icon="['fas', 'image']" />    
+      <p class="small-nav-text">Gallery</p>
+    </a> -->
     <a href="#footer" class="nav-icon">
       <font-awesome-icon :icon="['fas', 'square-phone']" />
+      <p class="small-nav-text">Contact</p>
     </a>
   </div>
     </div>
@@ -158,21 +166,18 @@ display: none;
   background-color: var(--bg-color); /* Set background color */
   padding: 10px 0; /* Add padding */
   z-index: 1000; /* High z-index to ensure it's above other content */
-
   border-top: 1px solid var(--secondary);
 }
 
 .nav-icon {
- 
   color: var(--text-color-light); /* Icon color */
-  font-size: 24px; /* Icon size */
+  font-size: 22px; /* Icon size */
   display: block; /* Ensure it's a block element */
 }
 
 /* You might want to add :hover and :active states for your icons */
 .nav-icon:hover {
   color: var(--primary);
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
   animation: bounce 0.2s ease-in; /* Apply the bounce animation */
 }
 
@@ -191,6 +196,17 @@ display: none;
   position: absolute;
   top: 0;
 }
+
+a{
+  text-decoration: none;
+}
+.small-nav-text{
+  text-decoration: none;
+  font-size: small;
+  color: var(--secondary);
+}
+
+
 }
 
 

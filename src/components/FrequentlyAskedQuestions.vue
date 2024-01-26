@@ -52,6 +52,11 @@
             title: ' Do you offer any warranties on your work?',
             answer: 'Absolutely. I stand behind the quality of my work, and all of my labor will be discussed personally with the client. Besides that, I offer a 3-year warranty on full rewires and partial rewires. All the materials and products used are covered by the manufacturer\'s warranties, which vary depending on the product'
           },
+          {
+            id: 6,
+            title: ' Where can I find some gallery of your work?',
+            answer: 'Please take a look in links provided down below from MyBuilder profile and MyJobQuote profile. There you may find some of my work.'
+          },
           
           // ... add more questions as needed
         ]
