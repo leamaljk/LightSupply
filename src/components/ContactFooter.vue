@@ -7,24 +7,30 @@
             <h2 class="social-media ">Check out my profiles: </h2>
           <a href="https://www.myjobquote.co.uk/t/light-supply-electrical-services" target="_blank" aria-label="linkedin"><img src="../assets/images/badge.png " alt="mybuilderbage" height="60px" width="60px"></a>
           <a href="https://www.mybuilder.com/profile/view/light_supply/feedback" target="_blank" aria-label="linkedin"><img src="../assets/images/badge (2).png " alt="mybuilderbage" height="60px" width="60px"></a>
+          <a href="https://www.competentperson.co.uk/" target="_blank" aria-label="competent person"><img src="../assets/images/logo4 (2).png " alt="mybuilderbage" height="70px" width="110px"></a>
+          <a href="https://www.competentperson.co.uk/" target="_blank" aria-label="NICEIC domestic installer"><img src="../assets/images/logo3.png " alt="mybuilderbage" height="60px" width="100px"></a>
+
         </div>
         <div class="footer-links">
-            <h2 class="social">Contact</h2>
-          <a href="mailto:lea.zizic@hotmail.com" target="_blank" aria-label="e-mail"><font-awesome-icon :icon="['fas', 'envelope']" style="height: 35px; width: 35px;"/>
+            <h2 class="social">Contact Me</h2>
+            <a href="https://g.co/kgs/GyFZDvo" target="_blank" aria-label="location" ><font-awesome-icon :icon="['fass', 'location-pin']" bounce class="pin icon" style="height: 30px; width: 30px;" />
+            <h4 class="contact"> I am currently based <br><br>in Milton Keynes, UK.</h4>
+          </a> 
+          <a href="mailto:lea.zizic@hotmail.com" target="_blank" aria-label="e-mail" ><font-awesome-icon :icon="['fas', 'envelope']" style="height: 30px; width: 30px;" class="icon"/>
             <h4 class="contact">lightsupply2007@gmail.com</h4>
           </a>
-          <a href="#" target="_blank" aria-label="phone"><font-awesome-icon :icon="['fas', 'phone']" style="height: 35px; width: 35px;" />
+          <a href="#" target="_blank" aria-label="phone" ><font-awesome-icon :icon="['fas', 'phone']" style="height: 30px; width: 30px;" class="icon" />
             <h4 class="contact"> +447417450837</h4>
           </a>    
         
         </div>
         <div class="legal-links">
-            <a href="https://g.co/kgs/w9Cwgi" target="_blank" aria-label="location"><font-awesome-icon :icon="['fass', 'location-pin']" bounce class="pin" style="height: 35px; width: 35px;" />
-            <h4 class="contact"> I am currently based <br><br>in Milton Keynes, UK.</h4>
-          </a> 
+            Business Hours: Every day<br> from <span>8am</span> to <span>5pm</span> except Sunday.<br><br> 
+            Emergency Calls: Contact me <span>anytime.</span>
+  
         </div>
         <div class="copyright">
-          © 2023 Lea Maljkovic.<br><br> All Rights Reserved.
+          © 2024 Designed by Lea Maljkovic.<br><br> All Rights Reserved.
         </div>
         
       </div>
@@ -48,29 +54,21 @@
     color: white; /* Replace with the color code for the text */
     font-size: 0.8rem; /* Adjust font-size as needed */
     padding: 60px 20px;
+    border-top: 6px solid var(--secondary);
   }
-  .nav-wave {
-  display: block; /* Display the image as a block */
-  width: 100%; /* Full width to span across the page */
-  height: auto; /* Maintain the aspect ratio of the image */
-  position: absolute; /* Absolute position if it's to be directly below the navbar */
-  bottom: 60px; /* This should be the height of your navbar */
-  left: 0;
-  z-index: 9; /* Below the navbar */
-}
   .footer-container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items:top;
     flex-wrap: wrap;
   }
   
   .pin{
     position: relative;
-    top: 20px;
+    top: 10px;
   }
   .copyright{
-    padding: 20px;
+    padding: 20px 0;
     font-size: 1em;
     font-weight: 200;
   }
@@ -79,27 +77,30 @@
     position: relative;
     bottom: 6px;
     font-size: 1.1em;
+    font-weight: 100;
+    text-align: left;
     
   }
 
-  .social{
+ .social-media , .social{
     position: relative;
     justify-content: center;
-    text-align: center;
-    padding: 20px;
+    text-align: left;
+    padding: 20px 0;
+    color: var(--secondary);
   }
   .social-media{
-    position: relative;
-    bottom: 34px;
+    
     justify-content: center;
-    text-align: center;
-    padding-top: 10px;
+   
+    
   }
   .social-media-links a {
     padding-left: 10px;
     margin-right: 10px; /* Adjust spacing as needed */
     color: inherit; /* Inherits the color from the footer */
     text-decoration: none;
+    
   }
   
   .footer-links a,
@@ -109,10 +110,29 @@
     color: inherit; /* Inherits the color from the footer */
     text-decoration: none;
   }
+
+  .legal-links{
+    text-align: left;
+    font-size: 20px;
+    padding: 20px 0;
+  }
+.icon{
+   color: var(--secondary);
+}
+
+.footer-links .contact {
+  margin-left: 8px; /* Adjust as necessary for spacing */
+}
   
   /* Icons from Font Awesome - you will need to include the Font Awesome library */
   .fab {
     font-size: 1.5em; /* Adjust icon size as needed */
+  }
+
+  span{
+    color: var(--secondary);
+    font-weight: 600;
+    margin: 0 2px;
   }
   
   @media (max-width: 600px) {
@@ -123,6 +143,18 @@
     .social-media-links a, .footer-links a, .legal-links a {
       margin-bottom: 10px;
     }
+    
+ .social-media , .social{
+text-align: center;
+ }
+
+ .social-media{
+    padding: 0;
+ }
+    .legal-links{
+    text-align: center;
+    font-size: 14px;
+  }
   }
   </style>
   

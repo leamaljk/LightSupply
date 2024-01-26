@@ -11,8 +11,8 @@
                 <li><a href="#services-section" class="nav-item"><font-awesome-icon :icon="['fas', 'circle-check']" class="my-icon-style" />SERVICES</a></li>
                 <li><a href="#testimonials" class="nav-item"><font-awesome-icon :icon="['fas', 'comment']" class="my-icon-style" />TESTIMONIALS</a></li>
                 <li><a href="#main-div" class="nav-item"><font-awesome-icon :icon="['fas', 'circle-question']" class="my-icon-style"/>FAQ</a></li>
-                <li><a href="#main-div" class="nav-item"><font-awesome-icon :icon="['fas', 'images']"  class="my-icon-style"/>GALLERY</a></li>
-                <li><a href="#footer" class="nav-item"><font-awesome-icon :icon="['fas', 'envelope-circle-check']" class="my-icon-style" />CONTACT</a></li>
+                <li><a href="#main-div" class="nav-item"><font-awesome-icon :icon="['fas', 'image']"  class="my-icon-style"/>GALLERY</a></li>
+                <li><a href="#footer" class="nav-item"><font-awesome-icon :icon="['fas', 'square-phone']"  class="my-icon-style" />CONTACT</a></li>
                 
                 <!-- Add more navigation items here -->
                 </ul>
@@ -26,10 +26,10 @@
     <a href="#header" class="nav-icon">
       <font-awesome-icon :icon="['fas', 'house']" />
     </a>
-    <a href="#about-me-container" class="nav-icon">
+    <a href="#about-me-container" class="nav-icon"> 
       <font-awesome-icon :icon="['fas', 'circle-user']" />
     </a>
-    <a href="#services" class="nav-icon">
+    <a href="#services-section" class="nav-icon">
       <font-awesome-icon :icon="['fas', 'circle-check']" />
     </a>
     <a href="#testimonials" class="nav-icon">
@@ -39,10 +39,9 @@
       <font-awesome-icon :icon="['fas', 'circle-question']" />
     </a>
     <a href="#main-div" class="nav-icon">
-      <font-awesome-icon :icon="['fas', 'images']">
-      </font-awesome-icon>    </a>
+      <font-awesome-icon :icon="['fas', 'image']" />    </a>
     <a href="#footer" class="nav-icon">
-      <font-awesome-icon :icon="['fas', 'envelope-circle-check']" />    
+      <font-awesome-icon :icon="['fas', 'square-phone']" />
     </a>
   </div>
     </div>
@@ -166,7 +165,7 @@ display: none;
 .nav-icon {
  
   color: var(--text-color-light); /* Icon color */
-  font-size: 20px; /* Icon size */
+  font-size: 24px; /* Icon size */
   display: block; /* Ensure it's a block element */
 }
 
