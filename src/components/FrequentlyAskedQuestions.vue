@@ -45,18 +45,14 @@
           {
             id: 4,
             title: 'What areas do you serve?',
-            answer: 'I primarily serve my region, but feel free to contact me for more information about our service areas.'
+            answer: 'I primarily serve my region, but feel free to contact me for more information about my service areas.'
           },
           {
             id: 5,
             title: ' Do you offer any warranties on your work?',
             answer: 'Absolutely. I stand behind the quality of my work, and all of my labor will be discussed personally with the client. Besides that, I offer a 3-year warranty on full rewires and partial rewires. All the materials and products used are covered by the manufacturer\'s warranties, which vary depending on the product'
           },
-          {
-            id: 5,
-            title: ' Do you offer any warranties on your work?',
-            answer: 'Absolutely. I stand behind the quality of my work, and all of my labor will be discussed personally with the client. Besides that, I offer a 3-year warranty on full rewires and partial rewires. All the materials and products used are covered by the manufacturer\'s warranties, which vary depending on the product'
-          },
+          
           // ... add more questions as needed
         ]
       };

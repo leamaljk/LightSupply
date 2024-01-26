@@ -25,12 +25,14 @@
         
         </div>
         <div class="legal-links">
+            <h2 class="social">Opening hours / Emergency</h2>
+
             Business Hours: Every day<br> from <span>8am</span> to <span>5pm</span> except Sunday.<br><br> 
             Emergency Calls: Contact me <span>anytime.</span>
   
         </div>
         <div class="copyright">
-          © 2024 Designed by Lea Maljkovic.<br><br> All Rights Reserved.
+            <br><br>   © 2024 Designed by Lea Maljkovic.<br><br> All Rights Reserved.
         </div>
         
       </div>
@@ -52,7 +54,6 @@
     font-family: 'Tenor Sans', sans-serif;
     background-color: var(--bg-color); /* Replace with the color code you want */
     color: white; /* Replace with the color code for the text */
-    font-size: 0.8rem; /* Adjust font-size as needed */
     padding: 60px 20px;
     border-top: 6px solid var(--secondary);
   }
@@ -69,14 +70,14 @@
   }
   .copyright{
     padding: 20px 0;
-    font-size: 1em;
+    
     font-weight: 200;
   }
   .contact{
     padding: 10px;
     position: relative;
     bottom: 6px;
-    font-size: 1.1em;
+    
     font-weight: 100;
     text-align: left;
     
@@ -148,6 +149,10 @@
 text-align: center;
  }
 
+ .social h4{
+    text-align: center;
+    align-items: center;
+ }
  .social-media{
     padding: 0;
  }

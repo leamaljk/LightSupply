@@ -291,6 +291,7 @@ height: 100px;
   }
   
   #testimonials {
+    width: 90%;
     position: relative;
     padding: 10px; /* Less padding on smaller screens */
   }
@@ -307,7 +308,7 @@ height: 100px;
     box-shadow: none;
     border: none;
     position: absolute; /* Fixed position to keep arrows visible when scrolling */
-    bottom: 0px; /* Position at the bottom */
+    bottom: 360px; /* Position at the bottom */
     left: 0; /* Align to the left */
     right: 0; /* Align to the right */
     height: 40px; /* Set a fixed height for the arrows container */
@@ -329,11 +330,11 @@ height: 100px;
 
 
   .left-arrow {
-    left: 10px; /* Position closer to the edge */
+    left: -20px; /* Position closer to the edge */
   }
 
   .right-arrow {
-    right: 10px; /* Position closer to the edge */
+    right: -20px; /* Position closer to the edge */
   }
 
   .customer-details {
