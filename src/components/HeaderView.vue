@@ -175,7 +175,7 @@ width: 90%;
 
   @media (max-width: 1026px) {
     #header > div > * {
-    font-size: clamp(0.1rem, 2.5vw, 0.9rem); /* Adjust values as needed */
+    font-size: clamp(0.8rem, 2.5vw, 1.2rem); /* Adjust values as needed */
   }
   .local-electrician, .logo-signS{
     padding: 0;
@@ -292,6 +292,7 @@ width: 90%;
     .book-now {
       width: 100px;
       margin-top: 20px;
+      border-radius: 20px;
     }
 
     .window {

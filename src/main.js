@@ -1,5 +1,6 @@
 import { createApp } from 'vue';
 import App from './App.vue';
+import 'bootstrap-icons/font/bootstrap-icons.css';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { 
   faHouse,
@@ -13,7 +14,9 @@ import {
   faPhone,
   faLocationPin,
   faImage,
-  faSquarePhone
+  faSquarePhone,
+  faGear,
+  faStar
 } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 
@@ -30,7 +33,9 @@ library.add(
   faPhone,
   faLocationPin,
   faImage,
-  faSquarePhone
+  faSquarePhone,
+  faGear,
+  faStar
 );
 
 const app = createApp(App);
