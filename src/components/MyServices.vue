@@ -49,7 +49,7 @@
         </div>
         <h2 class="card-title">Consumer Unit Replacement</h2>
         <p class="card-description">
-            I replace outdated or malfunctioning consumer units (fuse boxes) with modern, safer units that include RCD protection. This service enhances the safety of your home by preventing electrical overloads and short circuits, and ensures compliance with current electrical regulations.
+            I replace outdated or malfunctioning consumer units (fuse boxes) with modern, safer units that include SPD and RCD protection. This service enhances the safety of your home by preventing electrical overloads and short circuits, and ensures compliance with current electrical regulations BS7671.
         </p>
       </div>
       <!-- CARD 6 -->
