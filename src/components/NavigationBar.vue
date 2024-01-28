@@ -11,7 +11,6 @@
                 <li><a href="#services-section" class="nav-item"><font-awesome-icon :icon="['fas', 'circle-check']" class="my-icon-style" />SERVICES</a></li>
                 <li><a href="#testimonials" class="nav-item"><font-awesome-icon :icon="['fas', 'comment']" class="my-icon-style" />TESTIMONIALS</a></li>
                 <li><a href="#main-div" class="nav-item"><font-awesome-icon :icon="['fas', 'circle-question']" class="my-icon-style"/>FAQ</a></li>
-                <li><a href="#main-div" class="nav-item"><font-awesome-icon :icon="['fas', 'image']"  class="my-icon-style"/>GALLERY</a></li>
                 <li><a href="#footer" class="nav-item"><font-awesome-icon :icon="['fas', 'square-phone']"  class="my-icon-style" />CONTACT</a></li>
                 
                 <!-- Add more navigation items here -->
@@ -87,7 +86,42 @@
   font-weight: 700;
 }
 
+@media (min-width: 1026px) {
 
+  .nav-item{
+    align-items: center;
+  }
+  .nav-links, .my-icon-style {
+padding: 2px;
+
+
+}
+.my-icon-style {
+padding-right: 10px;
+margin-top: 10px;
+
+}
+  .navbar{
+    display: flex;
+    }
+  }
+
+
+  
+  @media only screen and (min-width: 767px) and (max-width: 1025px) {
+
+    .my-icon-style {
+margin: 12px;
+padding-right: 10px;
+
+}
+.navbar {
+  width: 100%;
+padding: 80px 0;
+padding-top: 20px;
+  }
+
+  }
 
 /* NAVIGATION */
 .navbar {
@@ -150,6 +184,10 @@
 .mobile-navbar {
 display: none;
 }
+
+.nav-item {
+    font-size: clamp(0.7rem, 2vw, 1rem); /* Adjust values as needed */
+  }
 
 @media (max-width: 768px) {
   .navbar, .nav-wave{

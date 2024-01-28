@@ -71,6 +71,8 @@
 #header > div > * {
   text-align: center;
   margin: auto;
+    background-size: cover;
+    
 }
 
 @keyframes floatShadow {
@@ -94,13 +96,13 @@
 }
   
   .middle-div img {
-    object-fit: contain;
-    height: 600px;
+    object-fit: cover;  
+    background-size: cover;
     width: 100%;
+    height: 100%;
   }
   
   .middle-div{
-    // background-image: url('../assets/img\ \(36\).JPG' );
     object-fit: cover;  
     background-size: cover;
 }
@@ -171,6 +173,31 @@ width: 90%;
   display: none;
   }
 
+  @media (max-width: 1026px) {
+    #header > div > * {
+    font-size: clamp(0.1rem, 2.5vw, 0.9rem); /* Adjust values as needed */
+  }
+  .local-electrician, .logo-signS{
+    padding: 0;
+    margin: 2px;
+    font-size: large;
+    
+  }
+  }
+
+  @media only screen and (min-width: 767px) and (max-width: 1025px) {
+    #header > div > * {
+    font-size: clamp(0.1rem, 2.5vw, 0.9rem); /* Adjust values as needed */
+  }
+  .local-electrician, .logo-signS{
+    padding: 2px;
+    margin: 0;
+    font-size: large;
+
+  }
+
+
+  }
 
   @media (max-width: 768px) {
 
