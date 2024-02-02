@@ -12,7 +12,7 @@
 
         </div>
         <div class="footer-links">
-            <h2 class="social">Contact Me</h2>
+            <h2 class="social">Light Supply</h2>
             <a href="https://g.co/kgs/GyFZDvo" target="_blank" aria-label="location" ><font-awesome-icon :icon="['fass', 'location-pin']" bounce class="pin icon" style="height: 30px; width: 30px;" />
             <h4 class="contact"> I am currently based <br><br>in Milton Keynes, UK.</h4>
           </a> 

@@ -1,5 +1,5 @@
 <template>
-    <div><h1 class="title">Services</h1></div>
+    <div><h1 class="title">Electrical Services</h1></div>
     <div id="services-section">
 
 <!-- CARD 1 -->
