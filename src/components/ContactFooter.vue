@@ -4,7 +4,7 @@
       <div class="footer-container">
         <div class="social-media-links">
             
-            <h2 class="social-media ">Check out my profiles: </h2>
+            <h2 class="social-media ">Visit my profiles or check: </h2>
           <a href="https://www.myjobquote.co.uk/t/light-supply-electrical-services" target="_blank" aria-label="linkedin"><img src="../assets/images/badge.png " alt="mybuilderbage" height="60px" width="60px"></a>
           <a href="https://www.mybuilder.com/profile/view/light_supply/feedback" target="_blank" aria-label="linkedin"><img src="../assets/images/badge (2).png " alt="mybuilderbage" height="60px" width="60px"></a>
           <a href="https://www.competentperson.co.uk/" target="_blank" aria-label="competent person"><img src="../assets/images/logo4 (2).png " alt="mybuilderbage" height="70px" width="110px"></a>
@@ -14,7 +14,7 @@
         <div class="footer-links">
             <h2 class="social">Light Supply</h2>
             <a href="https://g.co/kgs/GyFZDvo" target="_blank" aria-label="location" ><font-awesome-icon :icon="['fass', 'location-pin']" bounce class="pin icon" style="height: 30px; width: 30px;" />
-            <h4 class="contact"> I am currently based <br><br>in Milton Keynes, UK.</h4>
+            <h4 class="contact description"> Light Supply Electric provides professional and reliable electrical services including domestic installations, repairs, and maintenance in Milton Keynes, Luton, London, Oxford, Reading, Cambridge, Northampton, UK.</h4>
           </a> 
           <a href="mailto:lea.zizic@hotmail.com" target="_blank" aria-label="e-mail" ><font-awesome-icon :icon="['fas', 'envelope']" style="height: 30px; width: 30px;" class="icon"/>
             <h4 class="contact">lightsupply2007@gmail.com</h4>
@@ -25,14 +25,15 @@
         
         </div>
         <div class="legal-links">
-            <h2 class="social">Opening hours / Emergency</h2>
+            <h2 class="social"> Opening hours / Emergency</h2>
 
             Business Hours: Every day<br> from <span>8am</span> to <span>5pm</span> except Sunday.<br><br> 
             Emergency Calls: Contact me <span>anytime.</span>
   
         </div>
         <div class="copyright">
-            <br><br>   © 2024 Designed by Lea Maljkovic.<br><br> All Rights Reserved.
+            <br> © 2024 Designed by Lea Maljkovic.<br><br> All Rights Reserved. <br><br>
+            For design services, contact<br> maljkoviclea@gmail.com
         </div>
         
       </div>
@@ -63,7 +64,9 @@
     align-items:top;
     flex-wrap: wrap;
   }
-  
+.description{
+  width: 300px;
+}
   .pin{
     position: relative;
     top: 10px;

@@ -8,7 +8,7 @@
             With number of years of experience, I specialize in high-quality domestic electrical installations and repairs.<br>
             I am dedicated to provide the safest and most reliable electrical solutions. <br>
             I use the latest tools and techniques and adhere to the strictest safety protocols. <br>
-            With continual updates and my training to stay ahead of industry standards,<br> I'm ensuring your home's electrical system is both safe and efficient.
+            With continual updates and my training to stay ahead of industry standards,<br> Light Supply is ensuring your home's electrical system is both safe and efficient.
 
         </p> 
     </div>
