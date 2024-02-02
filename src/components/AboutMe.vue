@@ -84,6 +84,7 @@
   </template>
   
   <script>
+  
 export default {
   mounted() {
     const observer = new IntersectionObserver((entries, observer) => {
@@ -104,7 +105,7 @@ export default {
 };
   </script>
   
-  <style scoped>
+<style scoped>
 
  #about-me-container {
   max-width: 1200px;
