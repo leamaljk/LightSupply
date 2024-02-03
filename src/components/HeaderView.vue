@@ -8,8 +8,8 @@
       <div class="image-container">
         <div class="header">
           <div class="one-line"> 
-            <h1 class="local-electrician">Your Local</h1> 
-            <h1 class="logo-signS">Electrician</h1> 
+            <h1 class="local-electrician">Your Local <span class="span">Electrician</span></h1> 
+             
           </div>
           <h2 class="local-electrician">Here When You Need Me</h2>
           <a href="#footer">
@@ -35,6 +35,10 @@
   </script>
   
   <style lang="scss" scoped>
+
+  .span{
+    color: var(--secondary);
+  }
   #header {
     width: 96%;    
     background-repeat: no-repeat;
@@ -178,21 +182,24 @@ width: 90%;
 
 
 
-  @media (min-width: 769px) and (max-width: 1400px) {
-    #header > div {
-  border: 2.5px solid var(--secondary);
-  border-radius: none; /* This makes the divs into circles */
-  aspect-ratio: 1 / 1; /* This ensures that the width and height are always equal */
+  @media (max-width: 767px) {
+   
+  #header > div {
+    width: 70%;
+  // animation: float 3s ease-in-out infinite, floatShadow 3s ease-in-out infinite;    box-shadow: 0 2px 10px rgba(0, 0, 0, 1);
+  border: none;
+  border-radius: 10px; /* This makes the divs into circles */
   display: flex;
   justify-content: center;
   align-items: center;
   overflow: hidden; 
+  margin: auto;
 
-    }
+}
 
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 767px) {
 
     @keyframes moveUp {
   0% {
