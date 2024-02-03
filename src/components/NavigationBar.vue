@@ -159,7 +159,7 @@ display: none;
     font-size: clamp(0.7rem, 2vw, 1rem); /* Adjust values as needed */
   }
 
-  @media (min-width: 767px) and (max-width: 1400px) {
+  @media (min-width: 768px) and (max-width: 1400px) {
   .nav-links {
     display: none;
   }

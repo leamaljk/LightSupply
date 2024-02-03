@@ -173,29 +173,22 @@ width: 90%;
   display: none;
   }
 
-  @media (max-width: 1026px) {
-    #header > div > * {
-    font-size: clamp(0.8rem, 2.5vw, 1.2rem); /* Adjust values as needed */
-  }
-  .local-electrician, .logo-signS{
-    padding: 0;
-    margin: 2px;
-    font-size: large;
-    
-  }
-  }
 
-  @media only screen and (min-width: 767px) and (max-width: 1025px) {
-    #header > div > * {
-    font-size: clamp(0.1rem, 2.5vw, 0.9rem); /* Adjust values as needed */
-  }
-  .local-electrician, .logo-signS{
-    padding: 2px;
-    margin: 0;
-    font-size: large;
 
-  }
 
+
+
+  @media (min-width: 769px) and (max-width: 1400px) {
+    #header > div {
+  border: 2.5px solid var(--secondary);
+  border-radius: none; /* This makes the divs into circles */
+  aspect-ratio: 1 / 1; /* This ensures that the width and height are always equal */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; 
+
+    }
 
   }
 
