@@ -164,7 +164,8 @@ display: none;
     display: none;
   }
   .mobile-navbar {
-    position: absolute; /* Fix navbar to the bottom */
+  height: auto;
+  position: absolute; /* Fix navbar to the bottom */
   top: 0;
   right: 0;
   right: 0;
