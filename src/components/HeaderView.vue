@@ -202,6 +202,10 @@ width: 90%;
 
     }
 
+#header > div:hover{
+  transform: scale(1.2);
+
+}
     @keyframes moveUp {
   0% {
     position: relative;

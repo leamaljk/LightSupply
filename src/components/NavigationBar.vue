@@ -159,26 +159,33 @@ display: none;
     font-size: clamp(0.7rem, 2vw, 1rem); /* Adjust values as needed */
   }
 
-  @media (min-width: 767px) and (max-width: 1400px) {
+  @media (min-width: 767px) and (max-width: 1400px) { //tablet 
   .nav-links {
     display: none;
   }
   .mobile-navbar {
   height: auto;
-  position: absolute; /* Fix navbar to the bottom */
+  position:fixed; /* Fix navbar to the bottom */
   top: 0;
-  right: 0;
-  right: 0;
+  right: 0; 
   display: flex; /* Use flexbox for layout */
   justify-content: space-around; /* Space icons evenly */
   align-items: center; /* Center icons vertically */
   background-color: var(--bg-color); /* Set background color */
-  padding: 10px 0; /* Add padding */
+  padding: 0px 0; /* Add padding */
   z-index: 1000;
   width: 55%;
   }
 
+  .nav-wave {
+    display: none;
+  }
 
+  .navbar{
+    position:fixed; /* Fix navbar to the bottom */
+  top: 0;
+  padding-bottom: 20px;
+  }
   .nav-icon {
     padding-top: 20px;
   color: var(--primary); /* Icon color */
