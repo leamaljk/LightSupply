@@ -187,13 +187,13 @@ width: 90%;
   #header > div {
     width: 70%;
   // animation: float 3s ease-in-out infinite, floatShadow 3s ease-in-out infinite;    box-shadow: 0 2px 10px rgba(0, 0, 0, 1);
-  border: none;
-  border-radius: 10px; /* This makes the divs into circles */
+  border-radius: 40px; /* This makes the divs into circles */
   display: flex;
   justify-content: center;
   align-items: center;
   overflow: hidden; 
   margin: auto;
+  border-color: var(--primary);
 
 }
 
@@ -224,7 +224,7 @@ width: 90%;
       justify-content: center;
       align-items: center;
       font-family: 'Roboto', sans-serif;
-      animation: moveUp 3s ease forwards; /* Apply the animation */
+      animation: moveUp 3s ease forwards; 
       animation-delay: 0.5s; /* Delay the start of the animation */
       z-index: 1000;
     }
@@ -287,6 +287,7 @@ width: 90%;
     .local-electrician, .logo-signS {
       width: 100%;
       margin: 0 0 10px 0;
+      padding: 0 10px;
     }
 
     .book-now {
@@ -296,7 +297,7 @@ width: 90%;
     }
 
     .window {
-      max-width: 100%;
+      width: 100%;
       margin: 20px 0;
       padding: 15px;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);

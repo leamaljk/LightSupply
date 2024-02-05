@@ -159,7 +159,7 @@ display: none;
     font-size: clamp(0.7rem, 2vw, 1rem); /* Adjust values as needed */
   }
 
-  @media (min-width: 768px) and (max-width: 1400px) {
+  @media (min-width: 767px) and (max-width: 1400px) {
   .nav-links {
     display: none;
   }
@@ -173,22 +173,25 @@ display: none;
   justify-content: space-around; /* Space icons evenly */
   align-items: center; /* Center icons vertically */
   background-color: var(--bg-color); /* Set background color */
-  padding: 30px 0; /* Add padding */
+  padding: 10px 0; /* Add padding */
   z-index: 1000;
   width: 55%;
   }
 
 
   .nav-icon {
-  color: var(--border); /* Icon color */
+    padding-top: 20px;
+  color: var(--primary); /* Icon color */
   font-size: 22px; /* Icon size */
   display: block; /* Ensure it's a block element */
+
 }
 
 /* You might want to add :hover and :active states for your icons */
 .nav-icon:hover {
   color: var(--border);
   animation: bounce 0.1s ease;
+  border-top: 4px solid var(--border);
 }
 
 a{
@@ -214,7 +217,7 @@ display: none;
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .navbar, .nav-wave{
     display: none;
   }
@@ -227,21 +230,21 @@ display: none;
   justify-content: space-around; /* Space icons evenly */
   align-items: center; /* Center icons vertically */
   background-color: var(--bg-color); /* Set background color */
-  padding: 10px 0; /* Add padding */
+  padding: 0px 0; /* Add padding */
   z-index: 1000; /* High z-index to ensure it's above other content */
-  border-top: 1px solid var(--border);
 }
 
 .nav-icon {
   color: var(--text-color-light); /* Icon color */
   font-size: 22px; /* Icon size */
   display: block; /* Ensure it's a block element */
+  padding: 10px;
 }
 
 /* You might want to add :hover and :active states for your icons */
 .nav-icon:hover {
   color: var(--border);
-  animation: bounce 0.1s ease;
+  border-top: #FC9C71 4px solid;
 
 
 
