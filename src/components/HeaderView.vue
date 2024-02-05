@@ -68,6 +68,10 @@
   justify-content: center;
   align-items: center;
   overflow: hidden; 
+  font-size: 1rem; /* Base size */
+  font-size: 1.5vw; /* Scale with the viewport */
+  min-font-size: 12px; /* Minimum size */
+  max-font-size: 24px; /* Maximum size */
 }
 
 
@@ -181,25 +185,22 @@ width: 90%;
 
 
 
-
   @media (max-width: 767px) {
-   
-  #header > div {
-    width: 70%;
-  // animation: float 3s ease-in-out infinite, floatShadow 3s ease-in-out infinite;    box-shadow: 0 2px 10px rgba(0, 0, 0, 1);
-  border-radius: 40px; /* This makes the divs into circles */
+
+    #header > div  {
+  width: 70%;
+  border-radius: 50%; /* This makes the divs into circles */
   display: flex;
   justify-content: center;
   align-items: center;
   overflow: hidden; 
   margin: auto;
-  border-color: var(--primary);
+  font-size: 2.5vw; /* Scale with the viewport */
+  min-font-size: 12px; /* Minimum size */
+  max-font-size: 24px; /* Maximum size */
+  animation: none;    box-shadow: none;
 
-}
-
-  }
-
-  @media (max-width: 767px) {
+    }
 
     @keyframes moveUp {
   0% {
@@ -262,6 +263,7 @@ width: 90%;
       margin-top: 0; /* Reset the margin-top */
       opacity: 0; /* Start hidden and fade in */
       animation: fadeIn 2s ease forwards; /* Fade in animation for content */
+      
       animation-delay: 1.5s;/* Start after navbar animation */
     }
 
