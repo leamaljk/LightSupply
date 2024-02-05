@@ -182,8 +182,13 @@ width: 90%;
   }
 
 
+  @media (min-width: 767px) and (max-width: 1400px) { //tablet 
+#header{
+  margin-top: 10rem;
 
+}
 
+  }
 
   @media (max-width: 767px) {
 
