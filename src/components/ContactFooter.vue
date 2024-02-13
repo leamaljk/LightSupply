@@ -32,8 +32,8 @@
   
         </div>
         <div class="copyright">
-            <br> © 2024 Designed by Lea Maljkovic.<br><br> All Rights Reserved. <br><br>
-            For design services, contact<br> maljkoviclea@gmail.com
+            <br> © 2024 Designed by Pearl Design.<br><br> All Rights Reserved. <br><br>
+            For design services, contact<br> PearlDesign2024@outlook.com
         </div>
         
       </div>
@@ -52,7 +52,7 @@
   <style scoped>
   #footer {
     margin-top: 40px;
-    font-family: 'Tenor Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;    
     background-color: var(--bg-color); /* Replace with the color code you want */
     color: white; /* Replace with the color code for the text */
     padding: 60px 20px;
