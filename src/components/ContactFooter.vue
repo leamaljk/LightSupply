@@ -35,7 +35,7 @@
             <br> © 2024 Designed by Pearl Design.<br><br> All Rights Reserved. <br><br>
             For website design services visit 
             <br><br>
-            <a href="#https://pearldesign2024.com">
+            <a href="https://pearldesign2024.com/">
               <img class="logo-sign" src="../assets/images/LogoSign (2).png" alt="logo" width="20px" height="20px" >
 
               Pearl Design
