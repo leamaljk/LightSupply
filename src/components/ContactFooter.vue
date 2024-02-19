@@ -33,7 +33,14 @@
         </div>
         <div class="copyright">
             <br> © 2024 Designed by Pearl Design.<br><br> All Rights Reserved. <br><br>
-            For design services, contact<br> PearlDesign2024@outlook.com
+            For website design services visit 
+            <br><br>
+            <a href="#https://pearldesign2024.com">
+              <img class="logo-sign" src="../assets/images/LogoSign (2).png" alt="logo" width="20px" height="20px" >
+
+              Pearl Design
+            </a>
+            <br><br>
         </div>
         
       </div>
@@ -75,6 +82,14 @@
     padding: 20px 0;
     
     font-weight: 200;
+  }
+
+  .copyright a{
+    text-decoration: none;
+    color: white;
+    font-family: "Libre Caslon Text", serif;
+  font-weight: 700;
+  font-style: normal;
   }
   .contact{
     padding: 10px;
