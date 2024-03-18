@@ -13,7 +13,7 @@
           </div>
           <h2 class="local-electrician">Here When You Need Me</h2>
           <a href="#footer">
-          <button class="book-now">Book Now</button>
+          <button class="book-now">Contact Me</button>
         </a>
         </div>
       </div>
