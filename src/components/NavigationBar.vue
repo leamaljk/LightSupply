@@ -11,7 +11,7 @@
                 <li><a href="#services-section" class="nav-item"><font-awesome-icon :icon="['fas', 'gear']" class="my-icon-style" />SERVICES</a></li>
                 <li><a href="#testimonials" class="nav-item"><font-awesome-icon :icon="['fas', 'star']"  class="my-icon-style" />TESTIMONIALS</a></li>
                 <li><a href="#main-div" class="nav-item"><font-awesome-icon :icon="['fas', 'circle-question']" class="my-icon-style"/>FAQ</a></li>
-                <li><a href="#footer" class="nav-item"><font-awesome-icon :icon="['fas', 'phone']"  class="my-icon-style" />CONTACT</a></li>
+                <li><a href="#container" class="nav-item"><font-awesome-icon :icon="['fas', 'phone']"  class="my-icon-style" />CONTACT</a></li>
                 
                 <!-- Add more navigation items here -->
                 </ul>
@@ -63,7 +63,7 @@
 
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss" >
 
 .my-icon-style {
   color: var(--secondary);
