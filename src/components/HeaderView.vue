@@ -145,9 +145,7 @@
   }
 
   .book-now:hover{
-    background-color: var(--text-color-light);
-    border: 2px solid var(--bg-color);
-    cursor: pointer;
+    transform: scale(1.1);
   }
   
   .local-electrician {

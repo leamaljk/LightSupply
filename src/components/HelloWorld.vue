@@ -6,7 +6,7 @@
 <div><MyServices></MyServices></div>
 <div><CostumerTestimonials></CostumerTestimonials> </div>
 <div><FrequentlyAskedQuestions></FrequentlyAskedQuestions> </div>
-
+<div><ContactForm></ContactForm></div>
 <div> <ContactFooter></ContactFooter>  </div>
 <div> 
   
@@ -23,11 +23,12 @@ import MyServices from './MyServices.vue';
 import CostumerTestimonials from './CostumerTestimonials.vue';
 import FrequentlyAskedQuestions from './FrequentlyAskedQuestions.vue';
 import ContactFooter from './ContactFooter.vue';
+import ContactForm from './ContactForm.vue';
 
 
 export default {
     name: 'ElectricianComponent',
-    components: { NavigationBar, HeaderView, AboutMe, MyServices, CostumerTestimonials, FrequentlyAskedQuestions, ContactFooter }
+    components: { NavigationBar, HeaderView, AboutMe, MyServices, CostumerTestimonials, FrequentlyAskedQuestions, ContactFooter, ContactForm }
 };
 </script>
 
