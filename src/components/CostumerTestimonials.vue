@@ -13,8 +13,8 @@
           <div class="customer-details">
             <div class="external-links">
                 <div class="linkovi">
-            <a href="https://www.myjobquote.co.uk/t/light-supply-electrical-services" target="_blank" class="e-link"><font-awesome-icon class="icon" :icon="['fas', 'arrow-up-right-from-square']" />Click to see more on MyJobQuote <span>36</span>reviews </a> 
-            <a href="https://www.mybuilder.com/profile/view/light_supply/feedback" target="_blank" class="e-link"><font-awesome-icon class="icon" :icon="['fas', 'arrow-up-right-from-square']" />And MyBuilder <span>27</span>reviews</a> 
+            <a href="https://www.myjobquote.co.uk/t/light-supply-electrical-services" target="_blank" class="e-link"><font-awesome-icon class="icon" :icon="['fas', 'arrow-up-right-from-square']" />Click to see more on MyJobQuote <span>40</span>reviews </a> 
+            <a href="https://www.mybuilder.com/profile/view/light_supply/feedback" target="_blank" class="e-link"><font-awesome-icon class="icon" :icon="['fas', 'arrow-up-right-from-square']" />And MyBuilder <span>28</span>reviews</a> 
                </div>
             </div>
             <h4 class="name">{{ info.name }}</h4>

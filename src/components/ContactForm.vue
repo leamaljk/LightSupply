@@ -240,6 +240,19 @@ p{
 
       max-width: 100%; /* On small screens, allow the content and form to fill the available space */
     }
+
+    span {
+  font-size: 1.6rem;
+    }
+
+  }
+
+  @media (max-width: 480px) {
+
+  
+    span {
+  font-size: 1.6rem;
+    }
   }
   </style>
   

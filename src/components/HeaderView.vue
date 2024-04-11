@@ -29,15 +29,13 @@
     </div>
     </div>
   </template>
-  
-  <script setup>
-  // Script setup area for Vue component logic
-  </script>
+
   
   <style lang="scss" scoped>
 
   .span{
-    color: var(--secondary);
+    color: var(--primary);
+    font-weight: 600;
   }
   #header {
     width: 96%;    
@@ -70,7 +68,7 @@
   overflow: hidden; 
   font-size: 1rem; /* Base size */
   font-size: 1.5vw; /* Scale with the viewport */
-  min-font-size: 12px; /* Minimum size */
+  min-font-size: 16px; /* Minimum size */
   max-font-size: 24px; /* Maximum size */
 }
 
@@ -131,7 +129,8 @@
   }
   
   .header .local-electrician {
-    color: var(--primary);
+   
+    color: var(--secondary);
   }
   
   .book-now {
@@ -142,6 +141,7 @@
     cursor: pointer;
     margin-top: 20px;
     border-radius: 20px;
+    font-weight: bold;
   }
 
   .book-now:hover{
@@ -150,6 +150,7 @@
   
   .local-electrician {
     margin-right: 10px;
+     font-weight: 900;
   }
   
   .logo-signS {
@@ -186,6 +187,14 @@ width: 90%;
 
 }
 
+.book-now {
+    background-color: var(--secondary);
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    font-size: 12px;
+}
+
   }
 
   @media (max-width: 767px) {
@@ -199,10 +208,10 @@ width: 90%;
   overflow: hidden; 
   margin: auto;
   font-size: 2.5vw; /* Scale with the viewport */
-  min-font-size: 12px; /* Minimum size */
+  min-font-size: 16px; /* Minimum size */
   max-font-size: 24px; /* Maximum size */
   animation: none;    box-shadow: none;
-
+line-height: 1.8;
     }
 
 #header > div:hover{
