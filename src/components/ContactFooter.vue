@@ -36,9 +36,9 @@
             For website design services visit 
             <br><br>
             <a href="https://pearldesign2024.com/">
-              <img class="logo-sign" src="../assets/images/LogoSign (2).png" alt="logo" width="20px" height="20px" >
+              <img class="logo-sign" src="../assets/images/14.png" alt="logo" width="120px" height="60px" >
 
-              Pearl Design
+              
             </a>
             <br><br>
         </div>
