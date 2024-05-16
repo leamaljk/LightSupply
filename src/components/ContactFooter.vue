@@ -178,7 +178,7 @@ margin: 15px 0;
  }
     .legal-links{
     text-align: center;
-    font-size: 14px;
+    font-size: 20px;
   }
   }
   </style>

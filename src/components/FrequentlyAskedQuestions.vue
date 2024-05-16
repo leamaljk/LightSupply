@@ -82,7 +82,7 @@
       "questions image";
     gap: 20px;
     background: white;
-    max-width: 1200px;
+    max-width: 1400px;
     margin: auto;
     padding: 20px;
     border-radius: 8px;
@@ -132,6 +132,7 @@
     height: auto;
     border-radius: 8px;
     object-fit: cover;
+    
   }
 
   @media screen and (max-width: 768px) {

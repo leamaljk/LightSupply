@@ -1,6 +1,6 @@
 <template>
   <div class="electrician-component">
-<div><NavigationBar></NavigationBar></div>
+<div class="nav"><NavigationBar></NavigationBar></div>
 <div><HeaderView/> </div> 
 <div><AboutMe></AboutMe></div>
 <div><MyServices></MyServices></div>
@@ -36,6 +36,16 @@ export default {
 
 .electrician-component {
   text-align: center;
+  
+}
+.nav{
+  padding-bottom: 50px;
 }
 
+@media (min-width: 767px) and (max-width: 1400px) { 
+  .nav{
+  padding-bottom: 0px;
+  margin-bottom: auto;
+}
+}
 </style>

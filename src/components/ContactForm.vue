@@ -150,7 +150,7 @@ p{
     align-items: center;
     justify-content:center;
     flex: 1;
-    max-width: 600px;
+    max-width: 750px;
   }
   
   .form {
@@ -159,6 +159,7 @@ p{
     align-items: flex-start;
     justify-content: center;
     margin: 20px;
+    font-size: 24px;
   }
   
   .form-group {
@@ -174,7 +175,7 @@ p{
   .form-group input,
   .form-group textarea {
     width: 100%; /* Full width */
-    padding: 10px;
+    padding: 12px;
     border: 1px solid #ccc; /* Consistent border size */
     border-radius: 5px;
     transition: border-color 0.3s; /* Smooth transition for border color */
@@ -210,7 +211,10 @@ p{
     margin-top: 20px;
     border-radius: 20px;
   }
-
+  .content p 
+    {
+      font-size: 24px;
+    }
   button:hover{
     transform: scale(1.1);
   }
@@ -219,9 +223,9 @@ p{
     #container {
       flex-direction: column;
       align-items: center;
-
+      width: 100%;
     }
-
+  
     .logo img{
       width: 120px;
       height: 120px;
@@ -233,11 +237,14 @@ p{
     }
     .content p 
     {
-      font-size: small;
+      font-size: 20px;
     }
+    .form {
     
+    font-size: 20px;
+  }
     .content, .form {
-
+      margin: 0;
       max-width: 100%; /* On small screens, allow the content and form to fill the available space */
     }
 
@@ -248,7 +255,10 @@ p{
   }
 
   @media (max-width: 480px) {
-
+    .content, .form {
+   
+     width: 100%; /* On small screens, allow the content and form to fill the available space */
+    }
   
     span {
   font-size: 1.6rem;

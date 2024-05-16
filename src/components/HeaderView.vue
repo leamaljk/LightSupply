@@ -193,6 +193,7 @@ width: 90%;
     border: none;
     padding: 10px 10px;
     font-size: 12px;
+    font-weight: normal;
 }
 
   }

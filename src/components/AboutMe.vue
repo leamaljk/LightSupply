@@ -152,7 +152,7 @@ export default {
   
   
   .box {
-    font-size: large;
+    font-size: 24px;
     width: 100%; /* Boxes take full width */
     padding: 20px;
     margin-bottom: 10px; /* Space between boxes */
@@ -193,7 +193,7 @@ export default {
 @media (max-width: 768px) {
 
     .box{
-        font-size: medium;
+        font-size: 20px;
     }
     .boxes {
     flex-direction: column;

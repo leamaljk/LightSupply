@@ -157,7 +157,7 @@ export default {
 }
 
 .card-description {
-  font-size: 0.8em;
+  font-size: 1em;
   text-align: justify;
   flex-grow: 1; /* Allow the description to fill the space */
 }
@@ -174,7 +174,7 @@ export default {
 
 @media (max-width: 1199px) {
   #services-section {
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Adjust to fewer columns on medium screens */
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); /* Adjust to fewer columns on medium screens */
   }
 }
 
@@ -184,7 +184,7 @@ export default {
     grid-template-columns: 1fr; /* Stack cards in a single column on small screens */
   }
   .service-card {
-    width: 80%; /* Adjust card width on small screens */
+    width: 90%; /* Adjust card width on small screens */
     margin: 15px auto; /* Center the card with auto margins */
   }
   .title {

@@ -41,6 +41,8 @@
   h4 {
     cursor: pointer;
     user-select: none;
+    font-size: 24px;
+    font-weight: 500;
   }
   
   h4.is-active {
@@ -52,7 +54,7 @@
     transition: transform 0.2s;
     color: var(--secondary);
     padding-left: 10px;
-    font-size: 24px;font-size: 28px;
+    font-size: 28px;
     
 }
   
@@ -63,5 +65,12 @@
   .answer {
     margin-top: 10px;
   }
+
+  @media (max-width: 768px) {
+  h4 {
+    
+    font-size: 20px;
+  }
+}
   </style>
   
