@@ -192,7 +192,7 @@ export default {
 
 @media (max-width: 768px) {
 
-    .box{
+    .box, .text-box1, .text-box2, .text-box3{
         font-size: 20px;
     }
     .boxes {
