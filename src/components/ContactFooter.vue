@@ -32,8 +32,8 @@
   
         </div>
         <div class="copyright">
-            <br> © 2024 Designed by Pearl Design.<br><br> All Rights Reserved. <br><br>
-            For website design services visit 
+            <br> © 2024 Light Supply. All Rights Reserved. <br><br>
+            Designed by Pearl Design.<br> For website design services visit 
             <br><br>
             <a href="https://pearldesign2024.com/">
               <img class="logo-sign" src="../assets/images/14.png" alt="logo" width="120px" height="60px" >

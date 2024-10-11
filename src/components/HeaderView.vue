@@ -23,7 +23,7 @@
       <div class="window"> 
         <p>
           Light Supply Electrical Services, <br>
-          is a small business based in Milton Keynes and NICEIC Approved Domestic Installer.<br>
+          is a small business based in Milton Keynes and NICEIC Approved Installer.<br>
           As qualified electrician I offer professional electrical services to domestic properties for homeowners, landlords and commercial premises.<br>
         </p>
     </div>

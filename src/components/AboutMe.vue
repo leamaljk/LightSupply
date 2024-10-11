@@ -108,7 +108,7 @@ export default {
 <style scoped>
 
  #about-me-container {
-  max-width: 1400px;
+  max-width: 95%;
   margin-top: 200px;
   margin-left: auto;
   margin-right: auto;

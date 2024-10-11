@@ -55,7 +55,7 @@
           {
             id: 6,
             title: ' Where can I find some gallery of your work?',
-            answer: 'Please take a look in links provided down below from MyBuilder profile and MyJobQuote profile. There you may find some of my work.'
+            answer: 'Please take a look Testimonials where you can find MyBuilder profile and MyJobQuote profile. There you may find gallery of my work.'
           },
           
           // ... add more questions as needed

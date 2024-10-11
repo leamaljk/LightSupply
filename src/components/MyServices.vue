@@ -9,8 +9,7 @@
         </div>
         <h2 class="card-title">EICR Landlords Electrical Safety Certificates</h2>
         <p class="card-description">
-            I provide comprehensive Electrical Installation Condition Reports (EICR-Safety Report) for landlords, ensuring compliance with legal safety obligations. This service includes a thorough inspection of the property’s electrical systems, identifying any potential hazards or deficiencies, and issuing a detailed report and certification in PDF format with all photos and notes within 24h.
-        </p>
+          I provide Electrical Installation Condition Reports (EICRs) for landlords, ensuring compliance with safety regulations. This includes a thorough inspection of electrical systems, identification of hazards, and a detailed report with photos and notes, delivered within 24 hours.        </p>
       </div>
       <!-- CARD 2 -->
       <div class="service-card">
@@ -19,8 +18,7 @@
         </div>
         <h2 class="card-title">New Build Wiring</h2>
         <p class="card-description">
-            Specializing in wiring services for new constructions, I design and install complete electrical systems tailored to the specific needs of your new build. This includes strategic planning of the electrical layout, installation of all wiring, sockets, switches, and essential fixtures, ensuring that your new property is equipped with a safe and efficient electrical system from the start.
-        </p>
+          I specialize in wiring for new constructions, designing and installing complete electrical systems tailored to your needs. This includes planning the layout and installing wiring, sockets, switches, and fixtures for a safe and efficient system.        </p>
       </div>
       <!-- CARD 3 -->
       <div class="service-card">
@@ -29,8 +27,9 @@
         </div>
         <h2 class="card-title">EV Charger Installation</h2>
         <p class="card-description">
-            With the rise of electric vehicles, I offer professional installation of EV chargers at your home. Our service includes assessing the best location for the charger, ensuring compatibility with your vehicle, and providing a seamless and safe installation that complies with all electrical standards.
-        </p>
+          I professionally install EV chargers at your home. This service includes assessing the best location, ensuring vehicle compatibility, and delivering a safe installation that meets electrical standards.
+
+</p>
       </div>
       <!-- CARD 4 -->
       <div class="service-card">
@@ -39,8 +38,7 @@
         </div>
         <h2 class="card-title">Sockets and Lights Replacement</h2>
         <p class="card-description">
-        I offer replacement services for old or faulty sockets and light fixtures. This includes upgrading to more aesthetically pleasing or energy-efficient options, ensuring that all replacements are compatible with your existing electrical system and are installed with precision and safety.
-        </p>
+          I replace old or faulty sockets and light fixtures with modern, energy-efficient options, ensuring compatibility with your existing electrical system and safe installation.        </p>
       </div>
       <!-- CARD 5 -->
       <div class="service-card">
@@ -49,8 +47,7 @@
         </div>
         <h2 class="card-title">Consumer Unit Replacement</h2>
         <p class="card-description">
-            I replace outdated or malfunctioning consumer units (fuse boxes) with modern, safer units that include SPD and RCD protection. This service enhances the safety of your home by preventing electrical overloads and short circuits, and ensures compliance with current electrical regulations BS7671.
-        </p>
+          I replace outdated consumer units (fuse boxes) with modern units that offer SPD and RCD protection, enhancing safety and compliance with electrical regulations (BS7671).        </p>
       </div>
       <!-- CARD 6 -->
       <div class="service-card">
@@ -59,8 +56,7 @@
         </div>
         <h2 class="card-title">Extended Power to Sheds, Garages, or Garden Cabins</h2>
         <p class="card-description">
-            Extend the convenience of electricity to your outdoor structures with my service. I safely install electrical lines to power sheds, garages, garden cabins, or any other outdoor spaces, providing you with the flexibility to use these areas for a variety of purposes, whether it’s for lighting, power tools, or entertainment.
-        </p>
+          I extend electricity to outdoor structures, safely installing electrical lines to power sheds, garages, and garden cabins for lighting, tools, or entertainment.        </p>
       </div>
       <!-- CARD 7 -->
       <div class="service-card">
@@ -69,8 +65,7 @@
         </div>
         <h2 class="card-title">Fixing Electrical Faults</h2>
         <p class="card-description">
-            As a skilled electrician I adept at diagnosing and repairing all types of electrical faults. Whether it’s flickering lights, tripping circuits, or malfunctioning outlets, I provide prompt and effective solutions to resolve these issues, ensuring your electrical system operates smoothly and safely.
-        </p>
+          I diagnose and repair various electrical faults, such as flickering lights and tripping circuits, providing prompt solutions to ensure your system operates safely.        </p>
       </div>
       <!-- CARD 8 -->
       <div class="service-card">
@@ -79,8 +74,7 @@
         </div>
         <h2 class="card-title">Full House Rewire</h2>
         <p class="card-description">
-            Full house rewire service involves replacing old and potentially hazardous wiring throughout your home. This comprehensive service includes the removal of outdated wiring, installation of new cables, and updating sockets, switches, and fixtures to modern standards, significantly improving the safety and functionality of your home's electrical system.
-        </p>
+          I offer full house rewiring, replacing old wiring with modern cables, and updating sockets, switches, and fixtures to enhance the safety and functionality of your electrical system.        </p>
        
       </div>
     </div>
@@ -109,7 +103,7 @@ export default {
 #services-section {
   display: grid;
   grid-template-columns: repeat(4, 1fr); /* Four columns */
-  gap: 20px; /* Space between cards */
+  gap: 10px; /* Space between cards */
   padding: 10px;
   background: rgba(194, 188, 188, 0.5);
   background-blend-mode: overlay;
@@ -151,14 +145,15 @@ export default {
 }
 
 .card-title {
-  font-size: 1.1em;
+  font-size: 1.2em;
   margin-bottom: 15px;
   text-align: center; /* Center the title */
 }
 
 .card-description {
-  font-size: 1em;
-  text-align: justify;
+  
+  font-size: 24px;
+  text-align: center;
   flex-grow: 1; /* Allow the description to fill the space */
 }
 
@@ -186,6 +181,10 @@ export default {
   .service-card {
     width: 90%; /* Adjust card width on small screens */
     margin: 15px auto; /* Center the card with auto margins */
+  }
+  .card-description {
+  
+  font-size: 20px;
   }
   .title {
     font-size: 2em;
